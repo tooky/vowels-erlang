@@ -1,0 +1,12 @@
+{application, vowels,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { vowels_app, []}},
+  {env, []}
+ ]}.
